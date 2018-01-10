@@ -2,7 +2,11 @@
 title: "Seminar 2a VM"
 author: "Victor Martinez"
 date: '2018-01-10'
-output: html_document
+output: github_document
+  html_document: 
+    keep_md: yes
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -27,4 +31,23 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.  
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+
+* Fruits
+    * apples
+    * bananas
+    * grapes
+* Vegetables
+    * carrots
+    * brocoli
+
+1. elephants
+2. monkeys
+3. rabbits  
+[This is a link to GitHub](https://github.com/)
+
